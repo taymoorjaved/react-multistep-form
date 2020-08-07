@@ -1,0 +1,50 @@
+.title {
+  margin: 30px 0px !important;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.thirdSection {
+  width: 70% !important;
+}
+
+.section {
+  padding: 20px 0px;
+  display: flex !important;
+  max-width: 100% !important;
+  flex-wrap: wrap !important;
+  justify-content: space-around;
+}
+
+.section-first-item {
+  flex: 1;
+}
+.section-second-item {
+  flex: 1;
+}
+.section-third-item {
+  flex: 1;
+}
+.section-fourth-item {
+  flex: 1;
+}
+
+.my-card {
+  background-color: #dbf0ff !important;
+}
+
+#label {
+  margin-top: 16px;
+  margin-bottom: 6px;
+  color: #3f51b5;
+}
+
+.my-icon {
+  font-size: 120px !important;
+  color: #3f51b5 !important;
+  margin-top: 10px !important;
+}

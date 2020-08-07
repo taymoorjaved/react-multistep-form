@@ -1,0 +1,39 @@
+.step-btns {
+  text-align: right;
+  width: 86%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.reset-cont {
+  text-align: center;
+}
+
+.success-icon {
+  display: flex !important;
+  margin: auto !important;
+}
+
+.scuess-btn {
+  width: 100%;
+}
+
+.botton-bar {
+  margin-top: 25px !important;
+  background-color: black !important;
+  text-align: center !important;
+}
+.info-text {
+  text-align: center;
+  margin-top: 15px;
+  color: #3f51b5;
+}
+
+.info-card {
+  background: #dbf0ff !important;
+  padding: 12px 9px !important;
+}
+
+.topbar-txt {
+  margin: auto !important;
+}

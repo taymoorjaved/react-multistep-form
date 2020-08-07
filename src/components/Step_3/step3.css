@@ -1,0 +1,28 @@
+.ticket-container {
+  background-image: url("Flightticket.png");
+  background-color: #dbf0ff;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ticket-content {
+  text-align: end;
+  padding-top: 14%;
+}
+
+@media only screen and (max-width: 768px) {
+  .ticket-container {
+    height: 139px;
+  }
+  .my-text-one {
+    font-size: 15px !important;
+  }
+  .my-text-two {
+    font-size: 15px !important;
+  }
+  .my-text-three {
+    font-size: 15px !important;
+  }
+}
