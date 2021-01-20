@@ -23,7 +23,7 @@ const MultiStepForm = () => {
     return [
       'Where & When to Travel',
       'Personal Information',
-      'Preview Your Ticket :)',
+      'Preview Your Ticket',
     ];
   };
 
