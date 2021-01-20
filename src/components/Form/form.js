@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from 'react';
 import {
   AppBar,
   Toolbar,
@@ -9,21 +9,21 @@ import {
   Button,
   Container,
   Card,
-} from "@material-ui/core";
-import CheckCircleOutlineIcon from "@material-ui/icons/CheckCircleOutline";
-import FirstStep from "../Step_1/step1";
-import SecondStep from "../Step_2/step2";
-import ThirdStep from "../Step_3/step3";
-import "./form.css";
+} from '@material-ui/core';
+import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
+import FirstStep from '../Step_1/step1';
+import SecondStep from '../Step_2/step2';
+import ThirdStep from '../Step_3/step3';
+import './form.css';
 
 const MultiStepForm = () => {
   const [bookingDetail, setBookingDetail] = useState({});
 
   const getSteps = () => {
     return [
-      "Where & When to Travel",
-      "Personal Information",
-      "Preview Your Ticket",
+      'Where & When to Travel',
+      'Personal Information',
+      'Preview Your Ticket :)',
     ];
   };
 
@@ -71,7 +71,7 @@ const MultiStepForm = () => {
           />
         );
       default:
-        return "Unknown step";
+        return 'Unknown step';
     }
   };
 
